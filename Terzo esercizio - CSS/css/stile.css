@@ -1,0 +1,55 @@
+/* ++++ SEZIONE HEADER ++++ */
+
+*p {
+    font-family: Georgia, serif;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+header figure img {
+    width: 12em;
+    margin-bottom: 3px;
+}
+header p {font-size: 0.9em;}
+
+/** ++++ SEZIONE PRINCIPALE/MAIN ++++ */
+
+main {
+    text-align: center;
+    width: 100%;
+}
+main h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 2em;
+}
+main img {
+    border-radius: 3%;
+}
+main figcaption {
+    margin-top: 20px;
+    color: rgba(128, 128, 128, 0.817);
+}
+
+aside {
+    text-align: center;
+}
+
+section h2 {
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+}
+section li {
+    padding: 10px;
+}
+
+
+
+
+
