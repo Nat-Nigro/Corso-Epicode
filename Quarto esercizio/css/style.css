@@ -1,0 +1,92 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    background-image: url(/img/sfondo.png);
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: auto;
+}
+
+/* CONTENITORE */
+#contenitore {
+    margin: auto;
+    background-image: linear-gradient(#0096C2,#076A86);
+    padding: 20px;
+    margin-top: 20px;
+    width: 65%;
+    height: 195px;
+    box-shadow: 2px 2px 10px;
+}
+
+/* HEADER */
+
+header {
+    margin-left: 25%;
+}
+
+header img {
+    width: 16rem;
+}
+
+header h1 {
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+header nav ul li{
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+/* MAIN */
+
+#post {
+    background-color: white;
+    margin-top: 2rem;
+    width: 345px;
+    padding: 10px 10px;
+    box-shadow: 1px 1px 4px;
+    margin-left: -19px;
+}
+
+main h2 {
+    font-size: 2rem; 
+    font-family: 'Poppins', serif;
+}
+
+#post_intestazione {
+    color: gray;
+    font-size: 1.2em;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+article main p {
+    line-height: 25px;
+}
+
+article ul li {
+    margin-left: 30px;
+    line-height: 25px;
+    list-style-type: disc;
+}
+article ol li {
+    margin-left: 30px;
+    line-height: 25px;
+    list-style-type: decimal;
+}
+
+/* TABELLE */
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
