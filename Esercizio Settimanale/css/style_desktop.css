@@ -1,0 +1,188 @@
+/* INDICAZIONI GENERALI */
+body {
+    color:  #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+}
+
+*{box-sizing: border-box;}
+
+/* HEADER */
+
+#contenitore_header {
+    background-color: black;
+    height: 130px;
+}
+
+header div img {
+    padding: 20px;
+    width: 190px;
+    margin-top: 0.5em;
+}
+
+/* NAVBAR */
+nav {
+    background-image: url(/img/banner.jpg);
+    background-size: cover;
+    line-height: 1.5;
+}
+
+nav h1 {
+    font-size: 2.2em;
+    text-align: center;
+    padding-top: 2em;
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    margin-bottom: 0.8em;
+    padding-top: 200px;
+}
+
+nav p {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 1.2em;
+}
+
+nav hr {
+    border-color: transparent;
+}
+
+nav span{
+    background-color: #f04c2f;
+    padding: 15px 25px;
+    font-family: 'Montserrat', sans-serif,;
+    font-weight: bold;
+    color: white;
+    border-radius: 10%;
+    margin: 0 45%;
+}
+
+/* ARTICLE */
+
+#articolo {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+article h2 {
+    font-size: 1.2em;
+    text-align: left;
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+article p {
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 0.1em;
+}
+
+article img {
+    margin-left: 4em;
+    border-radius: 50%;
+}
+
+#notebook {
+    float: left;
+    margin-right: 5em;
+    margin-bottom: 7em;
+}
+
+
+/* SEZIONE MARIO ROSSI */
+
+#testimonianze {
+    background-color: #e22d0e;
+    padding: 30px;
+    color: white;
+}
+
+section h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1em;
+}
+
+section h4 {
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+    font-style: italic;
+    font-size: 1em;
+}
+
+/* ASIDE */
+
+#contenitore {
+    margin: 4em 4em;
+    text-align: center;
+}
+.contenuto {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    border: 1px solid grey;
+    box-shadow: 0 0 1px;
+}
+
+aside img {
+    width: 100%;
+    padding-bottom: 10px;
+    height: 250px;
+}
+
+aside h2 {
+    font-size: 1em;
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    margin-bottom: 0.8em;
+}
+
+aside p {
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #2292b0db;;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+footer hr {
+    width: 50%;
+}
+
+footer p {
+    margin-bottom: 1em;
+    color: #c8e7f0;
+}
+
+.copyright {
+    margin: 1.5em 0;
+}

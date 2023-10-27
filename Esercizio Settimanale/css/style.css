@@ -1,0 +1,168 @@
+/* Toggle device toolbar -> iPhone XR */
+
+/* INDICAZIONI GENERALI */
+body {
+    color:  #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+}
+
+*{box-sizing: border-box;}
+
+/* HEADER */
+
+#contenitore_header {
+    background-color: black;
+    height: 130px;
+    text-align: center;
+}
+
+header div img {
+    padding: 20px;
+    width: 190px;
+    margin-top: 0.5em;
+}
+
+/* NAVBAR */
+nav {
+    background-image: url(/img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    line-height: 1.5;
+}
+
+nav h1 {
+    font-size: 2.2em;
+    text-align: center;
+    padding-top: 2em;
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    margin-bottom: 0.8em;
+}
+
+nav p {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 15px;
+    margin-bottom: 0.9em;
+}
+
+nav span{
+    background-color: #f04c2f;
+    padding: 15px 25px;
+    font-family: 'Montserrat', sans-serif,;
+    font-weight: bold;
+    color: white;
+    border-radius: 10%;
+    margin-left: 125px;
+}
+
+article h2 {
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 2em;
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    margin-bottom: 0.8em;
+}
+
+article p {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px;
+    margin-bottom: 0.1em;
+}
+
+article img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+#notebook {text-align: center;}
+
+/* SEZIONE MARIO ROSSI */
+
+#testimonianze {
+    background-color: #e22d0e;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+section h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0.5em;
+}
+section p {font-style: italic;}
+
+/* ASIDE */
+
+.contenitore {
+    margin: 50px 20px;
+    border: 1px solid grey;
+    box-shadow: 0 0 1px;
+}
+
+aside img{
+    width: 100%;
+}
+
+aside h2 {
+    font-size: 1em;
+    text-align: center;
+    padding-top: 2em;
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    margin-bottom: 0.8em;
+}
+
+aside p {
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #2292b0db;;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+footer hr {
+    width: 50%;
+}
+
+footer p {
+    margin-bottom: 1em;
+    color: #c8e7f0;
+}
+
+.copyright {
+    margin: 1.5em 0;
+}
+
+
+
+
+
