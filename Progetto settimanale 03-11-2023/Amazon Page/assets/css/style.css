@@ -1,0 +1,135 @@
+/* Your styles here */
+
+/* Impostazioni Gnerali */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9edee;
+}
+.text-center {
+    text-align: center;
+}
+.py-1 {
+    padding: 1rem 0;
+}
+.margin-obj {
+    margin: 2em 3em;   /* attribuisco una classe per centrare i contenuti, non ho ancora trovato una via migliore */
+}
+h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+p {
+    color: #1b5764;
+    font-weight: bold;
+}
+
+/* ++++++ Header ++++++  */
+
+#logo {
+    background-color: #222f3f;
+}
+header img {
+    width: 130px;
+    margin-left: 2em;
+    margin-bottom: 0.8em;
+    margin-top: 0.5em;
+}
+
+nav {
+    background-color: #364759;
+    padding: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding-inline: 0.5em;
+}
+
+/* ++++++ Banner Shop ++++++ */
+
+.bg-yellow {
+    color: #eaeded;
+    background-color: #f56600;
+}
+
+/* +++++ Holiday Gift Guides +++++ */
+
+aside {
+    margin-top: 2.5em;
+}
+
+aside div {
+    background-image: url('../images/bg-image.png');
+    padding: 60px;
+}
+
+aside div span {
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+aside div p {
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+
+/*  Sezione Main */
+
+main {
+    background-color: white;
+}
+
+main h3, p {
+    display: inline-block;
+    margin-left: 1em;
+    margin-top: 0.9em;
+    margin-bottom: 0.8em;
+}
+
+.schede img {
+    display: inline-block;
+    width: 320px;
+    min-height: 320px;
+    max-height: 320px;
+    border-radius: 10%;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    box-shadow: 2px 2px 20px grey;
+    }
+
+    /* Sezione Shop Gaming Audio*/
+
+    section img {
+        width: 100%;
+    }
+
+    section h3, p {
+        display: inline-block;
+        margin-bottom: 1em;
+    }
+
+    /* Ancora back to top */
+
+    section div {
+        background-color:  #364759;
+        padding: 0.8em;
+    }
+    section div a {
+        color: white;
+    }
+
+    /* ++++++ Footer +++++ */
+
+    footer div {
+        background-color: #222f3f;
+    }
+
+    footer div img {
+        width: 160px;
+        padding: 30px;
+    }
